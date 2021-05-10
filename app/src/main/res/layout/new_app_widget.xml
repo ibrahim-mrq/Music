@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorDarkBlue"
+    android:padding="@dimen/widget_margin">
+
+    <ImageView
+        android:id="@+id/customWidgetMusic_img"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/customWidgetMusic_player_play_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/customWidgetMusic_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_toEndOf="@+id/customWidgetMusic_img"
+        android:ellipsize="marquee"
+        android:fontFamily="@font/font_bold"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="music name "
+        android:textColor="@color/colorWhite" />
+
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/customWidgetMusic_btn_return"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/customWidgetMusic_tv_title"-->
+    <!--        android:layout_marginStart="10dp"-->
+    <!--        android:layout_toEndOf="@+id/customWidgetMusic_img"-->
+    <!--        android:background="@drawable/ripple_notification"-->
+    <!--        android:padding="10dp"-->
+    <!--        android:src="@drawable/ic_repeat" />-->
+
+    <ImageButton
+        android:id="@+id/customWidgetMusic_player_play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customWidgetMusic_tv_title"
+        android:layout_marginHorizontal="10dp"
+        android:layout_toEndOf="@+id/customWidgetMusic_player_previous_btn"
+        android:background="@drawable/ripple_notification"
+        android:padding="10dp"
+        android:src="@drawable/player_play_btn" />
+
+    <ImageButton
+        android:id="@+id/customWidgetMusic_player_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customWidgetMusic_tv_title"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/customWidgetMusic_img"
+        android:background="@drawable/ripple_notification"
+        android:padding="15dp"
+        android:src="@drawable/player_back_btn" />
+
+    <ImageButton
+        android:id="@+id/customWidgetMusic_player_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customWidgetMusic_tv_title"
+        android:layout_marginHorizontal="10dp"
+        android:layout_toEndOf="@+id/customWidgetMusic_player_play_btn"
+        android:background="@drawable/ripple_notification"
+        android:padding="15dp"
+        android:src="@drawable/player_forward_btn" />
+
+</RelativeLayout>

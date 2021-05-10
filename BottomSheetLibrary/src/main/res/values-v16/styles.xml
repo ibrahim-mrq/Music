@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomSheet.Title.TextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/black_55</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="BottomSheet.TextAppearance.Medium" parent="android:TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--the_sans_arab-->
+    <style name="BottomSheet.ListItem" parent="BottomSheet.Title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/bottom_sheet_dialog_padding</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:textSize">12.67sp</item>
+        <item name="android:textColor">@color/selected_text_color</item>
+        <item name="android:background">@color/background_color</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:fontFamily">@font/custom_font</item>
+    </style>
+
+    <style name="BottomSheet.GridItem" parent="BottomSheet.ListItem">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/background_color</item>
+        <item name="android:fontFamily">@font/custom_font</item>
+    </style>
+
+</resources>

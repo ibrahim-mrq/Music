@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black_35">#59000000</color>
+    <color name="black_55">#8C000000</color>
+    <color name="black_85">#D9000000</color>
+    <color name="bottom_sheet_bg_dark">#ff303030</color>
+    <color name="bottom_sheet_bg">#ffeeeeee</color>
+    <color name="grey_35">#59efefef</color>
+    <color name="grey_55">#8Cefefef</color>
+    <color name="grey_85">#D9efefef</color>
+
+    <color name="text_color">#333333</color>
+    <color name="selected_text_color">#4880d7</color>
+    <color name="title_color">#1a1718</color>
+    <color name="background_color">#ffffff</color>
+</resources>

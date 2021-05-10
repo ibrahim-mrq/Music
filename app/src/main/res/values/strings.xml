@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="file_name">File Name</string>
+    <string name="empty">There are no music files</string>
+    <string name="permission">There is no permission to access the files , Click here to get it !</string>
+    <string name="first_item">The first item I\'m not !</string>
+    <string name="last_item">The last item I\'m not !</string>
+    <string name="search">search</string>
+    <string name="sort">sort</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="sort_by_artist">Sort by artist</string>
+    <string name="sort_by_duration">Sort by duration</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

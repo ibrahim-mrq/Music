@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/background_color"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/bottom_sheet_dialog_padding"
+    android:paddingLeft="@dimen/bottom_sheet_dialog_padding"
+    android:paddingRight="@dimen/bottom_sheet_dialog_padding"
+    android:paddingStart="@dimen/bottom_sheet_dialog_padding">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/bottom_sheet_list_icon_size"
+        android:layout_height="@dimen/bottom_sheet_list_icon_size"
+        android:layout_gravity="center_vertical"
+        tools:src="@android:drawable/ic_menu_share" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/BottomSheet.ListItem"
+        tools:text="List Item" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/selectedMark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:src="@drawable/ic_check_mark"
+            android:tint="?attr/colorPrimary"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+</LinearLayout>

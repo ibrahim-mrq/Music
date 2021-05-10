@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">موسيقى</string>
+    <string name="file_name">اسم الملف</string>
+    <string name="empty">لا يوجد ملفات موسيقى</string>
+    <string name="permission">لا يوجد صلاحية للوصول الى الملفات ، اضغط هنا للحصول عليه ! </string>
+    <string name="first_item">اول عنصر بالقائمة !</string>
+    <string name="last_item">اخر عنصر بالقائمة !</string>
+    <string name="search">البحث</string>
+    <string name="sort">الترتيب</string>
+    <string name="sort_by_name">ترتيب حسب ألاسم</string>
+    <string name="sort_by_artist">ترتيب حسب فنان</string>
+    <string name="sort_by_duration">ترتيب حسب المدة</string>
+</resources>
